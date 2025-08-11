@@ -39,6 +39,16 @@
 @media (max-width: 900px) {
   .main h1 {
     font-size: 5rem;
-    
+  }
+
+  .searchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .searchBar button{
+    width: 350px;
+    height: 50px;
   }
 }
