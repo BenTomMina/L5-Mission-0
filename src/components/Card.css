@@ -1,0 +1,44 @@
+.card {
+  background: #f2f2f2;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.cardImage {
+  height: 672px;
+  width: 1200px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.cardText {
+  padding: 15px;
+}
+
+.cardText h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.cardText p {
+  margin: 5px 0 0;
+  color: #555;
+}
+
+/* Responsiveness when changing screen size */
+@media (max-width: 3000px) {
+  .cardImage {
+    height: 504px;
+    width: 900px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 2456px) {
+  .cardImage {
+    height: 336px;
+    width: 600px;
+    max-width: 100%;
+  }
+}

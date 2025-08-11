@@ -1,0 +1,44 @@
+.main {
+  background-image: url("MainImage.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  height: 40vh;
+  width: 100vw;
+}
+
+.main h1 {
+  font-size: 7rem;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.searchBar input {
+  padding: 10px;
+  width: 350px;
+  height: 50px;
+  border: none;
+}
+
+.searchBar button {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Responsiveness when changing screen size */
+@media (max-width: 900px) {
+  .main h1 {
+    font-size: 5rem;
+    
+  }
+}
